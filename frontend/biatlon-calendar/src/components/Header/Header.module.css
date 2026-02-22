@@ -1,0 +1,13 @@
+.image {
+  width: 64px;
+}
+
+.navigation {
+  display: flex;
+  margin: 16px;
+  padding: 4px;
+}
+
+.list {
+  list-style-type: none;
+}
