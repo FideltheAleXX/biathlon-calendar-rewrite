@@ -1,11 +1,13 @@
 import './App.css';
 import Header from './components/Header/Header';
+import StandingsMen from './components/StandingsMen/StandingsMen';
 
 function App() {
   return (
     <>
       <Header />
-      <aside>Winners man</aside>
+      <StandingsMen />
+
       <aside>Winners woman</aside>
       <main>Races</main>
       <footer>

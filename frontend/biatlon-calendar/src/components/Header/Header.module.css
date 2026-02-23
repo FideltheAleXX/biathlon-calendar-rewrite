@@ -1,13 +1,44 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px;
+  padding: 4px;
+  border: 1px solid black;
+}
+
 .image {
   width: 64px;
 }
 
+.imgContainer {
+  width: 2em;
+}
+
 .navigation {
   display: flex;
-  margin: 16px;
-  padding: 4px;
+  justify-content: center;
+  align-items: center;
 }
 
 .list {
   list-style-type: none;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.listItem {
+  font-size: 24px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #73b5e5;
+  border-radius: 8px;
+  padding: 8px 16px;
+  /* #c2dff3; */
+}
+
+.navLink:hover {
+  box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.3);
 }
