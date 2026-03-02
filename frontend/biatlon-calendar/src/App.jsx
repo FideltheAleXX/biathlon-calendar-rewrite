@@ -1,5 +1,6 @@
 import './App.css';
 import Header from './components/Header/Header';
+import Races from './components/Races/Races';
 import StandingsMen from './components/StandingsMen/StandingsMen';
 import StandingsWomen from './components/StandingsWomen/StandingsWomen';
 
@@ -12,7 +13,7 @@ function App() {
         <StandingsWomen />
       </div>
 
-      <main>Races</main>
+      <Races />
       <footer>
         <div>Sponsors</div>
         <div>
