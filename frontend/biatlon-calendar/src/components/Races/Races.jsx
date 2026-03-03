@@ -1,5 +1,6 @@
 import styles from './Races.module.css';
 import { useEffect, useState } from 'react';
+import formatDate from '../../utils/formatDate';
 
 const Races = () => {
   const [stages, setStages] = useState([]);
@@ -15,20 +16,25 @@ const Races = () => {
     <main className={styles.section}>
       <div className={styles.title}>Races</div>
       {stages.map((stage) => (
-        <div key={stage.id}>
-          <h3>{stage.name}</h3>
-          <p>{stage.location}</p>
-          <p>
-            {stage.startDate} — {stage.endDate}
+        <div key={stage.id} className={styles.stage}>
+          <div className={styles.stageName}>
+            {stage.name}{' '}
+            <span className={styles.location}>({stage.location})</span>
+          </div>
+
+          <p className={styles.startDate}>
+            {stage.startDate} - {stage.endDate}
           </p>
 
           {stage.competitions.map((race) => (
             <div key={race.id}>
-              <p>{new Date(race.date).toLocaleString()}</p>
-              <p>
-                {race.gender} {race.discipline} ({race.distance})
-              </p>
-              <p>Status: {race.status}</p>
+              <div className={styles.raceInfo}>
+                <div>{formatDate(race.date)}</div>
+                <div>
+                  {race.discipline} {race.distance}, {race.gender}
+                </div>
+                <div>{race.status}</div>
+              </div>
             </div>
           ))}
         </div>

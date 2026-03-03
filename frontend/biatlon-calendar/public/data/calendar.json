@@ -1,5 +1,419 @@
 [
   {
+    "id": "wc-2026-001",
+    "name": "Oestersund",
+    "location": "Sweden",
+    "startDate": "2025-11-29",
+    "endDate": "2025-12-07",
+    "competitions": [
+      {
+        "id": 101,
+        "date": "2025-11-29T13:15:00",
+        "discipline": "Relay",
+        "gender": "Women",
+        "distance": "4x6 km",
+        "status": "finished",
+        "results": []
+      },
+      {
+        "id": 102,
+        "date": "2025-11-29T16:55:00",
+        "discipline": "Relay",
+        "gender": "Men",
+        "distance": "4x7.5 km",
+        "status": "finished",
+        "results": []
+      },
+      {
+        "id": 103,
+        "date": "2025-11-30T14:00:00",
+        "discipline": "Single Mixed Relay",
+        "gender": "Men & Women",
+        "distance": "",
+        "status": "finished",
+        "results": []
+      },
+      {
+        "id": 104,
+        "date": "2025-11-30T16:40:00",
+        "discipline": "Mixed Relay",
+        "gender": "Men & Women",
+        "distance": "",
+        "status": "finished",
+        "results": []
+      },
+      {
+        "id": 105,
+        "date": "2025-12-02T15:30:00",
+        "discipline": "Individual",
+        "gender": "Women",
+        "distance": "15 km",
+        "status": "finished",
+        "results": []
+      },
+      {
+        "id": 106,
+        "date": "2025-12-03T15:30:00",
+        "discipline": "Individual",
+        "gender": "Men",
+        "distance": "20 km",
+        "status": "finished",
+        "results": []
+      },
+      {
+        "id": 107,
+        "date": "2025-12-05T16:00:00",
+        "discipline": "Sprint",
+        "gender": "Women",
+        "distance": "7,5 km",
+        "status": "finished",
+        "results": []
+      },
+      {
+        "id": 108,
+        "date": "2025-12-06T16:30:00",
+        "discipline": "Sprint",
+        "gender": "Men",
+        "distance": "10 km",
+        "status": "finished",
+        "results": []
+      },
+      {
+        "id": 109,
+        "date": "2025-12-07T13:15:00",
+        "discipline": "Pursuit",
+        "gender": "Women",
+        "distance": "10 km",
+        "status": "finished",
+        "results": []
+      },
+      {
+        "id": 110,
+        "date": "2025-12-07T15:20:00",
+        "discipline": "Pursuit",
+        "gender": "Men",
+        "distance": "12.5 km",
+        "status": "finished",
+        "results": []
+      }
+    ]
+  },
+  {
+    "id": "wc-2026-002",
+    "name": "Hochfilzen",
+    "location": "Austria",
+    "startDate": "2025-12-12",
+    "endDate": "2025-12-14",
+    "competitions": [
+      {
+        "id": 201,
+        "date": "2025-12-12T11:25:00",
+        "discipline": "Sprint",
+        "gender": "Men",
+        "distance": "10 km",
+        "status": "finished",
+        "results": []
+      },
+      {
+        "id": 202,
+        "date": "2025-12-12T14:15:00",
+        "discipline": "Sprint",
+        "gender": "Women",
+        "distance": "7,5 km",
+        "status": "finished",
+        "results": []
+      },
+      {
+        "id": 203,
+        "date": "2025-12-13T12:00:00",
+        "discipline": "Pursuit",
+        "gender": "Men",
+        "distance": "12.5 km",
+        "status": "finished",
+        "results": []
+      },
+      {
+        "id": 204,
+        "date": "2025-12-13T14:15:00",
+        "discipline": "Relay",
+        "gender": "Women",
+        "distance": "4x6 km",
+        "status": "finished",
+        "results": []
+      },
+      {
+        "id": 205,
+        "date": "2025-12-14T12:00:00",
+        "discipline": "Relay",
+        "gender": "Men",
+        "distance": "4x7.5 km",
+        "status": "finished",
+        "results": []
+      },
+      {
+        "id": 206,
+        "date": "2025-12-14T14:45:00",
+        "discipline": "Pursuit",
+        "gender": "Women",
+        "distance": "10 km",
+        "status": "finished",
+        "results": []
+      }
+    ]
+  },
+  {
+    "id": "wc-2026-003",
+    "name": "Annecy-Le Grand Bornand",
+    "location": "France",
+    "startDate": "2025-12-18",
+    "endDate": "2025-12-21",
+    "competitions": [
+      {
+        "id": 301,
+        "date": "2025-12-18T14:15:00",
+        "discipline": "Sprint",
+        "gender": "Women",
+        "distance": "7.5 km",
+        "status": "finished",
+        "results": []
+      },
+      {
+        "id": 302,
+        "date": "2025-12-19T14:15:00",
+        "discipline": "Sprint",
+        "gender": "Men",
+        "distance": "10 km",
+        "status": "finished",
+        "results": []
+      },
+      {
+        "id": 303,
+        "date": "2025-12-20T12:15:00",
+        "discipline": "Pursuit",
+        "gender": "Women",
+        "distance": "10 km",
+        "status": "finished",
+        "results": []
+      },
+      {
+        "id": 304,
+        "date": "2025-12-20T14:45:00",
+        "discipline": "Pursuit",
+        "gender": "Men",
+        "distance": "12.5 km",
+        "status": "finished",
+        "results": []
+      },
+      {
+        "id": 305,
+        "date": "2025-12-21T12:15:00",
+        "discipline": "Mass-start",
+        "gender": "Women",
+        "distance": "12.5 km",
+        "status": "finished",
+        "results": []
+      },
+      {
+        "id": 306,
+        "date": "2025-12-21T14:45:00",
+        "discipline": "Mass-start",
+        "gender": "Men",
+        "distance": "15 km",
+        "status": "finished",
+        "results": []
+      }
+    ]
+  },
+  {
+    "id": "wc-2026-004",
+    "name": "Oberhof",
+    "location": "Germany",
+    "startDate": "2026-01-08",
+    "endDate": "2026-01-11",
+    "competitions": [
+      {
+        "id": 401,
+        "date": "2026-01-08T11:30:00",
+        "discipline": "Sprint",
+        "gender": "Men",
+        "distance": "10 km",
+        "status": "finished",
+        "results": []
+      },
+      {
+        "id": 402,
+        "date": "2026-01-08T14:15:00",
+        "discipline": "Sprint",
+        "gender": "Women",
+        "distance": "7.5 km",
+        "status": "finished",
+        "results": []
+      },
+      {
+        "id": 403,
+        "date": "2026-01-10T12:00:00",
+        "discipline": "Pursuit",
+        "gender": "Men",
+        "distance": "12.5 km",
+        "status": "finished",
+        "results": []
+      },
+      {
+        "id": 404,
+        "date": "2026-01-10T14:25:00",
+        "discipline": "Relay",
+        "gender": "Women",
+        "distance": "4x6 km",
+        "status": "finished",
+        "results": []
+      },
+      {
+        "id": 405,
+        "date": "2026-01-11T11:00:00",
+        "discipline": "Relay",
+        "gender": "Men",
+        "distance": "4x7.5 km",
+        "status": "finished",
+        "results": []
+      },
+      {
+        "id": 406,
+        "date": "2026-01-11T14:30:00",
+        "discipline": "Pursuit",
+        "gender": "Women",
+        "distance": "10 km",
+        "status": "finished",
+        "results": []
+      }
+    ]
+  },
+  {
+    "id": "wc-2026-005",
+    "name": "Ruhpolding",
+    "location": "Germany",
+    "startDate": "2026-01-14",
+    "endDate": "2026-01-18",
+    "competitions": [
+      {
+        "id": 501,
+        "date": "2026-01-14T14:30:00",
+        "discipline": "Relay",
+        "gender": "Women",
+        "distance": "4x6 km",
+        "status": "finished",
+        "results": []
+      },
+      {
+        "id": 502,
+        "date": "2026-01-15T14:30:00",
+        "discipline": "Relay",
+        "gender": "Men",
+        "distance": "4x7.5 km",
+        "status": "finished",
+        "results": []
+      },
+      {
+        "id": 503,
+        "date": "2026-01-16T14:30:00",
+        "discipline": "Sprint",
+        "gender": "Women",
+        "distance": "7.5 km",
+        "status": "finished",
+        "results": []
+      },
+      {
+        "id": 504,
+        "date": "2026-01-17T14:30:00",
+        "discipline": "Sprint",
+        "gender": "Men",
+        "distance": "10 km",
+        "status": "finished",
+        "results": []
+      },
+      {
+        "id": 505,
+        "date": "2026-01-18T12:30:00",
+        "discipline": "Pursuit",
+        "gender": "Women",
+        "distance": "10 km",
+        "status": "finished",
+        "results": []
+      },
+      {
+        "id": 506,
+        "date": "2026-01-18T15:00:00",
+        "discipline": "Pursuit",
+        "gender": "Men",
+        "distance": "12.5 km",
+        "status": "finished",
+        "results": []
+      }
+    ]
+  },
+  {
+    "id": "wc-2026-006",
+    "name": "Nove Mesto na Morave",
+    "location": "Czechia",
+    "startDate": "2026-01-22",
+    "endDate": "2026-01-25",
+    "competitions": [
+      {
+        "id": 601,
+        "date": "2026-01-22T18:15:00",
+        "discipline": "Short Individual",
+        "gender": "Men",
+        "distance": "15 km",
+        "status": "finished",
+        "results": []
+      },
+      {
+        "id": 602,
+        "date": "2026-01-22T18:15:00",
+        "discipline": "Short Individual",
+        "gender": "Women",
+        "distance": "12.5 km",
+        "status": "finished",
+        "results": []
+      },
+      {
+        "id": 603,
+        "date": "2026-01-24T13:15:00",
+        "discipline": "Single Mixed Relay",
+        "gender": "Men & Women",
+        "distance": "",
+        "status": "finished",
+        "results": []
+      },
+      {
+        "id": 604,
+        "date": "2026-01-24T15:10:00",
+        "discipline": "Mixed Relay",
+        "gender": "Men & Women",
+        "distance": "",
+        "status": "finished",
+        "results": []
+      },
+      {
+        "id": 605,
+        "date": "2026-01-25T15:15:00",
+        "discipline": "Mass-start",
+        "gender": "Men",
+        "distance": "15 km",
+        "status": "finished",
+        "results": []
+      },
+      {
+        "id": 606,
+        "date": "2026-01-25T18:15:00",
+        "discipline": "Mass-start",
+        "gender": "Women",
+        "distance": "12.5 km",
+        "status": "finished",
+        "results": []
+      }
+    ]
+  },
+  {
     "id": "wc-2026-007",
     "name": "Kontiolahti",
     "location": "Finland",
@@ -109,7 +523,7 @@
         "id": 805,
         "date": "2026-03-15T12:35:00",
         "discipline": "Single Mixed Relay",
-        "gender": "Men, Women",
+        "gender": "Men & Women",
         "distance": "",
         "status": "scheduled",
         "results": []
@@ -118,8 +532,71 @@
         "id": 806,
         "date": "2026-03-15T14:40:00",
         "discipline": "Mixed Relay",
-        "gender": "Men, Women",
+        "gender": "Men & Women",
         "distance": "",
+        "status": "scheduled",
+        "results": []
+      }
+    ]
+  },
+  {
+    "id": "wc-2026-009",
+    "name": "Oslo Holmenkollen",
+    "location": "Norway",
+    "startDate": "2026-03-19",
+    "endDate": "2026-03-22",
+    "competitions": [
+      {
+        "id": 901,
+        "date": "2026-03-19T16:15:00",
+        "discipline": "Sprint",
+        "gender": "Women",
+        "distance": "7.5 km",
+        "status": "scheduled",
+        "results": []
+      },
+      {
+        "id": 902,
+        "date": "2026-03-20T16:15:00",
+        "discipline": "Sprint",
+        "gender": "Men",
+        "distance": "10 km",
+        "status": "scheduled",
+        "results": []
+      },
+      {
+        "id": 903,
+        "date": "2026-03-21T13:45:00",
+        "discipline": "Pursuit",
+        "gender": "Women",
+        "distance": "10 km",
+        "status": "scheduled",
+        "results": []
+      },
+      {
+        "id": 904,
+        "date": "2026-03-21T16:15:00",
+        "discipline": "Pursuit",
+        "gender": "Men",
+        "distance": "12.5 km",
+        "status": "scheduled",
+        "results": []
+      },
+      {
+        "id": 905,
+        "date": "2026-03-22T13:45:00",
+        "discipline": "Mass-start",
+        "gender": "Women",
+        "distance": "12.5 km",
+        "status": "scheduled",
+        "results": []
+      },
+      {
+        "id": 906,
+        "date": "2026-03-22T13:45:00",
+        "discipline": "Mass-start",
+        "gender": "Men",
+        "distance": "15 km",
         "status": "scheduled",
         "results": []
       }

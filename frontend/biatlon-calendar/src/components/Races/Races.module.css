@@ -1,9 +1,11 @@
 .section {
-  margin: 16px;
+  margin: 0 auto;
   padding: 8px;
   border: 1px solid black;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  width: 600px;
 }
 
 .title {
@@ -11,4 +13,26 @@
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 12px;
+}
+
+.stageName {
+  font-size: 24px;
+}
+
+.stage {
+  margin: 16px;
+}
+
+.location {
+  font-size: 12px;
+}
+
+.startDate {
+  margin: 4px;
+}
+
+.raceInfo {
+  display: flex;
+  justify-content: space-between;
+  margin: 4px;
 }
