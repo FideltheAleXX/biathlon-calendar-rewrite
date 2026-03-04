@@ -1,11 +1,11 @@
 .section {
-  margin: 0 auto;
+  margin: 16px auto;
   padding: 8px;
   border: 1px solid black;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   text-align: center;
-  width: 600px;
+  width: 36.5rem;
 }
 
 .title {

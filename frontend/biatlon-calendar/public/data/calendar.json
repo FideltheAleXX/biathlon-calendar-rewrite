@@ -13,7 +13,73 @@
         "gender": "Women",
         "distance": "4x6 km",
         "status": "finished",
-        "results": []
+        "results": [
+          {
+            "position": 1,
+            "team": "France",
+            "country": "FRA",
+            "time": "1:11:17.9",
+            "athletes": [
+              { "name": "Jeanne Richard" },
+              { "name": "Oceane Michelon" },
+              { "name": "Justine Braisaz-Bouchet" },
+              { "name": "Lou Jeanmonnot" }
+            ],
+            "shooting": "0+8"
+          },
+          {
+            "position": 2,
+            "team": "Italy",
+            "country": "ITA",
+            "time": "+13.8",
+            "athletes": [
+              { "name": "Dorothea Wierer" },
+              { "name": "Michela Carrara" },
+              { "name": "Lisa Vittozzi" },
+              { "name": "Hannah Auchentaller" }
+            ],
+            "shooting": "1+9"
+          },
+          {
+            "position": 3,
+            "team": "Czech Republic",
+            "country": "CZE",
+            "time": "+30.8",
+            "athletes": [
+              { "name": "Jessica Jislova" },
+              { "name": "Lucie Charvatova" },
+              { "name": "Tereza Vobornikova" },
+              { "name": "Marketa Davidova" }
+            ],
+            "shooting": "0+8"
+          },
+          {
+            "position": 4,
+            "team": "Sweden",
+            "country": "SWE",
+            "time": "+45.5",
+            "athletes": [
+              { "name": "Persson" },
+              { "name": "Brorsson" },
+              { "name": "Nelin" },
+              { "name": "Ponsiluoma" }
+            ],
+            "shooting": "2+10"
+          },
+          {
+            "position": 5,
+            "team": "Austria",
+            "country": "AUT",
+            "time": "+1:31.8",
+            "athletes": [
+              { "name": "Schwaiger" },
+              { "name": "Innerhofer" },
+              { "name": "Leitner" },
+              { "name": "Landertinger" }
+            ],
+            "shooting": "1+12"
+          }
+        ]
       },
       {
         "id": 102,
@@ -22,7 +88,73 @@
         "gender": "Men",
         "distance": "4x7.5 km",
         "status": "finished",
-        "results": []
+        "results": [
+          {
+            "position": 1,
+            "team": "Norway",
+            "country": "NOR",
+            "time": "1:11:10.1",
+            "athletes": [
+              { "name": "Martin Uldal" },
+              { "name": "Isak Leknes Frey" },
+              { "name": "Sturla Holm Lægreid" },
+              { "name": "Vetle Sjaastad Christiansen" }
+            ],
+            "shooting": "1+10"
+          },
+          {
+            "position": 2,
+            "team": "France",
+            "country": "FRA",
+            "time": "+15.3",
+            "athletes": [
+              { "name": "Fabien Claude" },
+              { "name": "Quentin Fillon‑Maillet" },
+              { "name": "Emilien Jacquelin" },
+              { "name": "Eric Perrot" }
+            ],
+            "shooting": "3+11"
+          },
+          {
+            "position": 3,
+            "team": "Sweden",
+            "country": "SWE",
+            "time": "+24.7",
+            "athletes": [
+              { "name": "Viktor Brandt" },
+              { "name": "Jesper Nelin" },
+              { "name": "Martin Ponsiluoma" },
+              { "name": "Sebastian Samuelsson" }
+            ],
+            "shooting": "3+14"
+          },
+          {
+            "position": 4,
+            "team": "Germany",
+            "country": "GER",
+            "time": "+55.7",
+            "athletes": [
+              { "name": "Justus Strelow" },
+              { "name": "Danilo Riethmueller" },
+              { "name": "Philipp Nawrath" },
+              { "name": "Philipp Horn" }
+            ],
+            "shooting": "0+9"
+          },
+          {
+            "position": 5,
+            "team": "USA",
+            "country": "USA",
+            "time": "+1:25.0",
+            "athletes": [
+              { "name": "Paul Schommer" },
+              { "name": "Maxime Germain" },
+              { "name": "Campbell Wright" },
+              { "name": "Sean Doherty" }
+            ],
+            "shooting": "2+14"
+          }
+        ]
       },
       {
         "id": 103,
@@ -31,7 +163,41 @@
         "gender": "Men & Women",
         "distance": "",
         "status": "finished",
-        "results": []
+        "results": [
+          {
+            "position": 1,
+            "team": "Sweden",
+            "country": "SWE",
+            "time": "35:12.1",
+            "athletes": [
+              { "name": "Sebastian Samuelsson" },
+              { "name": "Ella Halvarsson" }
+            ],
+            "shooting": "0+4"
+          },
+          {
+            "position": 2,
+            "team": "Norway",
+            "country": "NOR",
+            "time": "+19.1",
+            "athletes": [
+              { "name": "Sturla Holm Lægreid" },
+              { "name": "Maren Kirkeeide" }
+            ],
+            "shooting": "0+6"
+          },
+          {
+            "position": 3,
+            "team": "France",
+            "country": "FRA",
+            "time": "+37.3",
+            "athletes": [
+              { "name": "Fabien Claude" },
+              { "name": "Camille Bened" }
+            ],
+            "shooting": "1+6"
+          }
+        ]
       },
       {
         "id": 104,
@@ -40,7 +206,47 @@
         "gender": "Men & Women",
         "distance": "",
         "status": "finished",
-        "results": []
+        "results": [
+          {
+            "position": 1,
+            "team": "France",
+            "country": "FRA",
+            "time": "1:05:16.5",
+            "athletes": [
+              { "name": "Emilien Jacquelin" },
+              { "name": "Eric Perrot" },
+              { "name": "Justine Braisaz-Bouchet" },
+              { "name": "Lou Jeanmonnot" }
+            ],
+            "shooting": "0+6"
+          },
+          {
+            "position": 2,
+            "team": "Italy",
+            "country": "ITA",
+            "time": "+25.2",
+            "athletes": [
+              { "name": "Tommaso Giacomel" },
+              { "name": "Lukas Hofer" },
+              { "name": "Dorothea Wierer" },
+              { "name": "Lisa Vittozzi" }
+            ],
+            "shooting": "0+8"
+          },
+          {
+            "position": 3,
+            "team": "Norway",
+            "country": "NOR",
+            "time": "+1:05.3",
+            "athletes": [
+              { "name": "Endre Stroemsheim" },
+              { "name": "Johan‑Olav Botn" },
+              { "name": "Karoline Offigstad Knotten" },
+              { "name": "Ingrid Landmark Tandrevold" }
+            ],
+            "shooting": "1+7"
+          }
+        ]
       },
       {
         "id": 105,
@@ -49,7 +255,78 @@
         "gender": "Women",
         "distance": "15 km",
         "status": "finished",
-        "results": []
+        "results": [
+          {
+            "position": 1,
+            "athlete": "Dorothea Wierer",
+            "country": "ITA",
+            "time": "43:08.0",
+            "shooting": { "series": ["1", "1", "0", "0"], "totalMisses": 2 }
+          },
+          {
+            "position": 2,
+            "athlete": "Sonja Leinamo",
+            "country": "FIN",
+            "time": "43:08.3",
+            "shooting": { "series": ["0", "0", "1", "0"], "totalMisses": 1 }
+          },
+          {
+            "position": 3,
+            "athlete": "Camille Bened",
+            "country": "FRA",
+            "time": "43:16.4",
+            "shooting": { "series": ["0", "0", "0", "1"], "totalMisses": 1 }
+          },
+          {
+            "position": 4,
+            "athlete": "Lou Jeanmonnot",
+            "country": "FRA",
+            "time": "43:39.3",
+            "shooting": { "series": ["0", "0", "1", "1"], "totalMisses": 2 }
+          },
+          {
+            "position": 5,
+            "athlete": "Hanna Öberg",
+            "country": "SWE",
+            "time": "43:42.3",
+            "shooting": { "series": ["2", "1", "0", "0"], "totalMisses": 3 }
+          },
+          {
+            "position": 6,
+            "athlete": "Maya Cloetens",
+            "country": "BEL",
+            "time": "43:45.7",
+            "shooting": { "series": ["0", "0", "0", "1"], "totalMisses": 1 }
+          },
+          {
+            "position": 7,
+            "athlete": "Amy Baserga",
+            "country": "SUI",
+            "time": "43:55.5",
+            "shooting": { "series": ["0", "1", "0", "1"], "totalMisses": 2 }
+          },
+          {
+            "position": 8,
+            "athlete": "Elvira Öberg",
+            "country": "SWE",
+            "time": "43:59.6",
+            "shooting": { "series": ["1", "1", "0", "1"], "totalMisses": 3 }
+          },
+          {
+            "position": 9,
+            "athlete": "Anna Magnusson",
+            "country": "SWE",
+            "time": "44:09.8",
+            "shooting": { "series": ["1", "0", "0", "1"], "totalMisses": 2 }
+          },
+          {
+            "position": 10,
+            "athlete": "Lisa Vittozzi",
+            "country": "ITA",
+            "time": "44:10.8",
+            "shooting": { "series": ["1", "0", "2", "0"], "totalMisses": 3 }
+          }
+        ]
       },
       {
         "id": 106,
@@ -58,7 +335,78 @@
         "gender": "Men",
         "distance": "20 km",
         "status": "finished",
-        "results": []
+        "results": [
+          {
+            "position": 1,
+            "athlete": "Johan-Olav Botn",
+            "country": "NOR",
+            "time": "46:49.4",
+            "shooting": { "series": ["0", "0", "0", "0"], "totalMisses": 0 }
+          },
+          {
+            "position": 2,
+            "athlete": "Martin Uldal",
+            "country": "NOR",
+            "time": "+57.7",
+            "shooting": { "series": ["0", "0", "0", "0"], "totalMisses": 0 }
+          },
+          {
+            "position": 3,
+            "athlete": "Sebastian Samuelsson",
+            "country": "SWE",
+            "time": "+1:00.0",
+            "shooting": { "series": ["0", "0", "1", "0"], "totalMisses": 1 }
+          },
+          {
+            "position": 4,
+            "athlete": "Sivert Guttorm Bakken",
+            "country": "NOR",
+            "time": "+1:41.3",
+            "shooting": { "series": ["0", "0", "0", "0"], "totalMisses": 0 }
+          },
+          {
+            "position": 5,
+            "athlete": "Sturla Holm Lægreid",
+            "country": "NOR",
+            "time": "+2:10.5",
+            "shooting": { "series": ["0", "1", "0", "0"], "totalMisses": 1 }
+          },
+          {
+            "position": 6,
+            "athlete": "Jesper Nelin",
+            "country": "SWE",
+            "time": "+2:18.7",
+            "shooting": { "series": ["0", "1", "0", "0"], "totalMisses": 1 }
+          },
+          {
+            "position": 7,
+            "athlete": "Tommaso Giacomel",
+            "country": "ITA",
+            "time": "+2:27.5",
+            "shooting": { "series": ["0", "1", "0", "0"], "totalMisses": 1 }
+          },
+          {
+            "position": 8,
+            "athlete": "Philipp Horn",
+            "country": "GER",
+            "time": "+2:36.1",
+            "shooting": { "series": ["0", "1", "1", "0"], "totalMisses": 2 }
+          },
+          {
+            "position": 9,
+            "athlete": "Andrejs Rastorgujevs",
+            "country": "LAT",
+            "time": "+2:39.0",
+            "shooting": { "series": ["0", "0", "1", "0"], "totalMisses": 1 }
+          },
+          {
+            "position": 10,
+            "athlete": "Eric Perrot",
+            "country": "FRA",
+            "time": "+2:41.3",
+            "shooting": { "series": ["0", "1", "0", "1"], "totalMisses": 2 }
+          }
+        ]
       },
       {
         "id": 107,
@@ -67,7 +415,78 @@
         "gender": "Women",
         "distance": "7,5 km",
         "status": "finished",
-        "results": []
+        "results": [
+          {
+            "position": 1,
+            "athlete": "Suvi Minkkinen",
+            "country": "FIN",
+            "time": "20:11.9",
+            "shooting": { "series": ["0", "0"], "totalMisses": 0 }
+          },
+          {
+            "position": 2,
+            "athlete": "Anna Magnusson",
+            "country": "SWE",
+            "time": "+16.6",
+            "shooting": { "series": ["0", "0"], "totalMisses": 0 }
+          },
+          {
+            "position": 3,
+            "athlete": "Oceane Michelon",
+            "country": "FRA",
+            "time": "+20.8",
+            "shooting": { "series": ["0", "0"], "totalMisses": 0 }
+          },
+          {
+            "position": 4,
+            "athlete": "Lisa Theresa Hauser",
+            "country": "AUT",
+            "time": "+29.5",
+            "shooting": { "series": ["0", "0"], "totalMisses": 0 }
+          },
+          {
+            "position": 5,
+            "athlete": "Elvira Öberg",
+            "country": "SWE",
+            "time": "+44.5",
+            "shooting": { "series": ["1", "0"], "totalMisses": 1 }
+          },
+          {
+            "position": 6,
+            "athlete": "Joanna Jakiela",
+            "country": "POL",
+            "time": "+47.1",
+            "shooting": { "series": ["0", "0"], "totalMisses": 0 }
+          },
+          {
+            "position": 7,
+            "athlete": "Maren Kirkeeide",
+            "country": "NOR",
+            "time": "+49.5",
+            "shooting": { "series": ["1", "0"], "totalMisses": 1 }
+          },
+          {
+            "position": 8,
+            "athlete": "Julia Tannheimer",
+            "country": "GER",
+            "time": "+50.8",
+            "shooting": { "series": ["1", "0"], "totalMisses": 1 }
+          },
+          {
+            "position": 9,
+            "athlete": "Ella Halvarsson",
+            "country": "SWE",
+            "time": "+53.2",
+            "shooting": { "series": ["0", "0"], "totalMisses": 0 }
+          },
+          {
+            "position": 10,
+            "athlete": "Lotte Lie",
+            "country": "BEL",
+            "time": "+53.4",
+            "shooting": { "series": ["0", "0"], "totalMisses": 0 }
+          }
+        ]
       },
       {
         "id": 108,
@@ -76,7 +495,78 @@
         "gender": "Men",
         "distance": "10 km",
         "status": "finished",
-        "results": []
+        "results": [
+          {
+            "position": 1,
+            "athlete": "Johan-Olav Botn",
+            "country": "NOR",
+            "time": "24:26.3",
+            "shooting": { "series": ["0", "0"], "totalMisses": 0 }
+          },
+          {
+            "position": 2,
+            "athlete": "Martin Uldal",
+            "country": "NOR",
+            "time": "+11.1",
+            "shooting": { "series": ["0", "0"], "totalMisses": 0 }
+          },
+          {
+            "position": 3,
+            "athlete": "Quentin Fillon-Maillet",
+            "country": "FRA",
+            "time": "+14.3",
+            "shooting": { "series": ["0", "0"], "totalMisses": 0 }
+          },
+          {
+            "position": 4,
+            "athlete": "Sturla Holm Lægreid",
+            "country": "NOR",
+            "time": "+25.0",
+            "shooting": { "series": ["0", "1"], "totalMisses": 1 }
+          },
+          {
+            "position": 5,
+            "athlete": "Sebastian Samuelsson",
+            "country": "SWE",
+            "time": "+25.1",
+            "shooting": { "series": ["0", "1"], "totalMisses": 1 }
+          },
+          {
+            "position": 6,
+            "athlete": "Vetle Sjåstad Christiansen",
+            "country": "NOR",
+            "time": "+29.7",
+            "shooting": { "series": ["0", "0"], "totalMisses": 0 }
+          },
+          {
+            "position": 7,
+            "athlete": "Sivert Guttorm Bakken",
+            "country": "NOR",
+            "time": "+36.9",
+            "shooting": { "series": ["0", "0"], "totalMisses": 0 }
+          },
+          {
+            "position": 8,
+            "athlete": "Tommaso Giacomel",
+            "country": "ITA",
+            "time": "+38.3",
+            "shooting": { "series": ["1", "0"], "totalMisses": 1 }
+          },
+          {
+            "position": 9,
+            "athlete": "Eric Perrot",
+            "country": "FRA",
+            "time": "+40.2",
+            "shooting": { "series": ["0", "1"], "totalMisses": 1 }
+          },
+          {
+            "position": 10,
+            "athlete": "Malte Stefansson",
+            "country": "SWE",
+            "time": "+44.6",
+            "shooting": { "series": ["0", "0"], "totalMisses": 0 }
+          }
+        ]
       },
       {
         "id": 109,
@@ -85,7 +575,78 @@
         "gender": "Women",
         "distance": "10 km",
         "status": "finished",
-        "results": []
+        "results": [
+          {
+            "position": 1,
+            "athlete": "Lisa Theresa Hauser",
+            "country": "AUT",
+            "time": "30:14.2",
+            "shooting": { "series": ["0", "0", "0", "0"], "totalMisses": 0 }
+          },
+          {
+            "position": 2,
+            "athlete": "Suvi Minkkinen",
+            "country": "FIN",
+            "time": "+2.5",
+            "shooting": { "series": ["0", "0", "0", "0"], "totalMisses": 0 }
+          },
+          {
+            "position": 3,
+            "athlete": "Anna Magnusson",
+            "country": "SWE",
+            "time": "+31.8",
+            "shooting": { "series": ["1", "0", "0", "0"], "totalMisses": 1 }
+          },
+          {
+            "position": 4,
+            "athlete": "Camille Bened",
+            "country": "FRA",
+            "time": "+38.7",
+            "shooting": { "series": ["0", "0", "0", "1"], "totalMisses": 1 }
+          },
+          {
+            "position": 5,
+            "athlete": "Maren Kirkeeide",
+            "country": "NOR",
+            "time": "+1:00.0",
+            "shooting": { "series": ["0", "0", "0", "0"], "totalMisses": 0 }
+          },
+          {
+            "position": 6,
+            "athlete": "Lucie Charvatova",
+            "country": "CZE",
+            "time": "+1:07.4",
+            "shooting": { "series": ["0", "0", "1", "0"], "totalMisses": 1 }
+          },
+          {
+            "position": 7,
+            "athlete": "Ella Halvarsson",
+            "country": "SWE",
+            "time": "+1:10.2",
+            "shooting": { "series": ["1", "0", "1", "0"], "totalMisses": 2 }
+          },
+          {
+            "position": 8,
+            "athlete": "Oceane Michelon",
+            "country": "FRA",
+            "time": "+1:17.3",
+            "shooting": { "series": ["1", "1", "1", "0"], "totalMisses": 3 }
+          },
+          {
+            "position": 9,
+            "athlete": "Hanna Öberg",
+            "country": "SWE",
+            "time": "+1:21.8",
+            "shooting": { "series": ["1", "0", "1", "0"], "totalMisses": 2 }
+          },
+          {
+            "position": 10,
+            "athlete": "Vanessa Voigt",
+            "country": "GER",
+            "time": "+1:22.1",
+            "shooting": { "series": ["0", "0", "0", "0"], "totalMisses": 0 }
+          }
+        ]
       },
       {
         "id": 110,
@@ -94,7 +655,78 @@
         "gender": "Men",
         "distance": "12.5 km",
         "status": "finished",
-        "results": []
+        "results": [
+          {
+            "position": 1,
+            "athlete": "Quentin Fillon Maillet",
+            "country": "FRA",
+            "time": "30:14.5",
+            "shooting": { "series": ["0", "0", "1", "1"], "totalMisses": 2 }
+          },
+          {
+            "position": 2,
+            "athlete": "Sebastian Samuelsson",
+            "country": "SWE",
+            "time": "+6.7",
+            "shooting": { "series": ["0", "0", "1", "1"], "totalMisses": 2 }
+          },
+          {
+            "position": 3,
+            "athlete": "Johan-Olav Botn",
+            "country": "NOR",
+            "time": "+10.3",
+            "shooting": { "series": ["0", "1", "0", "1"], "totalMisses": 2 }
+          },
+          {
+            "position": 4,
+            "athlete": "Tommaso Giacomel",
+            "country": "ITA",
+            "time": "+15.2",
+            "shooting": { "series": ["0", "1", "0", "1"], "totalMisses": 2 }
+          },
+          {
+            "position": 5,
+            "athlete": "Eric Perrot",
+            "country": "FRA",
+            "time": "+16.2",
+            "shooting": { "series": ["1", "0", "0", "1"], "totalMisses": 2 }
+          },
+          {
+            "position": 6,
+            "athlete": "Campbell Wright",
+            "country": "USA",
+            "time": "+25.0",
+            "shooting": { "series": ["0", "0", "0", "0"], "totalMisses": 0 }
+          },
+          {
+            "position": 7,
+            "athlete": "Vetle Sjåstad Christiansen",
+            "country": "NOR",
+            "time": "+31.4",
+            "shooting": { "series": ["0", "0", "1", "0"], "totalMisses": 1 }
+          },
+          {
+            "position": 8,
+            "athlete": "Sturla Holm Lægreid",
+            "country": "NOR",
+            "time": "+43.7",
+            "shooting": { "series": ["0", "0", "2", "1"], "totalMisses": 3 }
+          },
+          {
+            "position": 9,
+            "athlete": "Sivert Guttorm Bakken",
+            "country": "NOR",
+            "time": "+54.0",
+            "shooting": { "series": ["0", "0", "0", "2"], "totalMisses": 2 }
+          },
+          {
+            "position": 10,
+            "athlete": "Isak Frey",
+            "country": "NOR",
+            "time": "+57.1",
+            "shooting": { "series": ["0", "0", "0", "1"], "totalMisses": 1 }
+          }
+        ]
       }
     ]
   },
