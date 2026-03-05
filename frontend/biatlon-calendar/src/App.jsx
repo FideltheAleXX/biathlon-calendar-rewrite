@@ -2,6 +2,7 @@ import './App.css';
 import Header from './components/Header/Header';
 import LeftSideBar from './components/LeftSideBar/LeftSideBar';
 import Races from './components/Races/Races';
+import RightSideBar from './components/RightSideBar/RightSideBar';
 import StandingsMen from './components/StandingsMen/StandingsMen';
 import StandingsWomen from './components/StandingsWomen/StandingsWomen';
 
@@ -16,6 +17,7 @@ function App() {
       </div>
 
       <LeftSideBar />
+      <RightSideBar />
       <footer>
         <div>Sponsors</div>
         <div>
