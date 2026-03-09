@@ -18,45 +18,149 @@ const RightSideBar = () => {
     { name: 'у топ-20 (16-20 місце)', votes: 27 },
     { name: 'у топ-20 (16-20 місце)', votes: 15 },
   ];
+
+  const athletes = [
+    {
+      id: 1,
+      name: 'Юлія Джима',
+      slug: 'dzhima-yuliia',
+      link: 'BTUKR21909199001',
+    },
+    {
+      id: 2,
+      name: 'Дмитро Підручний',
+      slug: 'pidruchnyi-dmytro',
+      link: 'BTUKR10511199101',
+    },
+    {
+      id: 3,
+      name: 'Стурла Легрейд',
+      slug: 'laegreid-sturla-holm',
+      link: 'BTNOR12002199701',
+    },
+    {
+      id: 4,
+      name: 'Богдан Борковський',
+      slug: 'borkovskyi-bohdan',
+      link: 'BTUKR11804200401',
+    },
+    {
+      id: 5,
+      name: 'Себастьян Самуельссон',
+      slug: 'samuelsson-sebastian',
+      link: 'btswe12803199701',
+    },
+    {
+      id: 6,
+      name: 'Кантен Фійон-Майє',
+      slug: 'fillon-maillet-quentin',
+      link: 'BTFRA11608199201',
+    },
+    {
+      id: 7,
+      name: 'Олена Городна',
+      slug: 'horodna-olena',
+      link: 'BTUKR20607200401',
+    },
+    { id: 8, name: 'Яков Фак', slug: 'fak-jakov', link: 'BTCRO10108198701' },
+    {
+      id: 9,
+      name: 'Дарина Чалик',
+      slug: 'chalyk-daryna',
+      link: 'BTUKR21908200101',
+    },
+    {
+      id: 10,
+      name: 'Уле-Айнар Бйорндален',
+      slug: 'bjoerndalen-ole-einar',
+      link: 'BTNOR12701197401',
+    },
+    {
+      id: 11,
+      name: 'Віталій Мандзин',
+      slug: 'mandzyn-vitalii',
+      link: 'BTUKR10504200301',
+    },
+    {
+      id: 12,
+      name: 'Христина Дмитренко',
+      slug: 'dmytrenko-khrystyna',
+      link: 'BTUKR23105199901',
+    },
+    {
+      id: 13,
+      name: 'Анастасія Меркушина',
+      slug: 'merkushyna-anastasiya',
+      link: 'BTUKR21401199501',
+    },
+    {
+      id: 14,
+      name: 'Анна Кривонос',
+      slug: 'kryvonos-anna',
+      link: 'BTUKR22509199701',
+    },
+    {
+      id: 15,
+      name: 'Антон Дудченко',
+      slug: 'dudchenko-anton',
+      link: 'BTUKR11712199601',
+    },
+  ];
+
+  const socials = [
+    {
+      icon: faSquareFacebook,
+      url: 'https://www.facebook.com/biathlon.com.ua/',
+      color: 'rgb(177, 151, 252)',
+      fontSize: '2rem',
+    },
+    {
+      icon: faInstagram,
+      url: 'https://www.instagram.com/uabiathlon/',
+      color: 'rgb(20, 19, 18)',
+      fontSize: '2rem',
+    },
+    {
+      icon: faYoutube,
+      url: 'https://www.youtube.com/channel/UC6FNT1jyB_QmmZktDWsN3Eg',
+      color: 'rgb(235, 87, 11)',
+      fontSize: '2rem',
+    },
+    {
+      icon: faTwitter,
+      url: 'https://twitter.com/biathloncomua',
+      color: 'rgb(116, 192, 252)',
+      fontSize: '2rem',
+    },
+    {
+      icon: faTelegram,
+      url: 'https://t.me/biathloncomua',
+      color: 'rgb(116, 192, 252)',
+      fontSize: '2rem',
+    },
+  ];
+
   return (
     <section className={styles.section}>
       <ul className={styles.list}>
-        <li>
-          <FontAwesomeIcon
-            icon={faSquareFacebook}
-            style={{ color: 'rgb(177, 151, 252)', fontSize: '2rem' }}
-          />
-        </li>
-        <li>
-          <FontAwesomeIcon
-            icon={faInstagram}
-            style={{ color: 'rgb(20, 19, 18)', fontSize: '2rem' }}
-          />
-        </li>
-        <li>
-          <FontAwesomeIcon
-            icon={faYoutube}
-            style={{ color: 'rgb(235, 87, 11)', fontSize: '2rem' }}
-          />
-        </li>
-        <li>
-          <FontAwesomeIcon
-            icon={faTwitter}
-            style={{ color: 'rgb(116, 192, 252)', fontSize: '2rem' }}
-          />
-        </li>
-        <li>
-          <FontAwesomeIcon
-            icon={faTelegram}
-            style={{ color: 'rgb(116, 192, 252)', fontSize: '2rem' }}
-          />
-        </li>
+        {socials.map((social, i) => (
+          <li key={i}>
+            <a href={social.url} target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon
+                icon={social.icon}
+                style={{ color: social.color, fontSize: social.fontSize }}
+              />
+            </a>
+          </li>
+        ))}
       </ul>
       <div className={styles.title}>ОЦІНКИ</div>
       <div>Оцінки в останній гонці</div>
-      <button>Поставити / подивитись оцінки</button>
+      <button className={styles.btn}>Поставити / подивитись оцінки</button>
       <div className={styles.title}>ГОЛОСУВАННЯ</div>
-      <div>Які місця стануть найкращими для наших біатлоністів на ОІ?</div>
+      <div className={styles.question}>
+        Які місця стануть найкращими для наших біатлоністів на ОІ?
+      </div>
       {options.map((opt, index) => {
         const percent = ((opt.votes / totalVotes) * 100).toFixed(1);
 
@@ -75,24 +179,21 @@ const RightSideBar = () => {
           </div>
         );
       })}
-      <button>Проголосувати</button>
+      <button className={styles.btn}>Проголосувати</button>
       <div className={styles.title}>ПРОФАЙЛИ</div>
       <ul>
-        <li>Юлія Джима</li>
-        <li>Дмитро Підручний</li>
-        <li>Стурла Легрейд</li>
-        <li>Богдан Борковський</li>
-        <li>Себастьян Самуельссон</li>
-        <li>Кантен Фійон-Майє</li>
-        <li>Олена Городна</li>
-        <li>Яков Фак</li>
-        <li>Дарина Чалик</li>
-        <li>Уле-Айнар Бйордален</li>
-        <li>Віталій Мандзин</li>
-        <li>Христина Дмитренко</li>
-        <li>Анастасія Меркушина</li>
-        <li>Анна Кривонос</li>
-        <li>Антон Дудченко</li>
+        {athletes.map((athlete) => (
+          <li key={athlete.id}>
+            <a
+              href={`https://www.biathlonworld.com/athlete/${athlete.slug}/${athlete.link}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.profile}
+            >
+              {athlete.name}
+            </a>
+          </li>
+        ))}
       </ul>
       <div className={styles.title}>ІНТЕРВЮ</div>
       <div>2026-02-20</div>

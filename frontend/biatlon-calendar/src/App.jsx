@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import LeftSideBar from './components/LeftSideBar/LeftSideBar';
 import Races from './components/Races/Races';
@@ -11,21 +12,17 @@ function App() {
     <>
       <Header />
       <div className="score">
-        <StandingsMen />
-        <Races />
-        <StandingsWomen />
-      </div>
-
-      <LeftSideBar />
-      <RightSideBar />
-      <footer>
-        <div>Sponsors</div>
-        <div>
-          <div>Logo</div>
-          <div>© 2006-2026</div>
-          <div>Text</div>
+        <div className="left-side">
+          <StandingsMen />
+          <LeftSideBar />
         </div>
-      </footer>
+        <Races />
+        <div className="right-side">
+          <StandingsWomen />
+          <RightSideBar />
+        </div>
+      </div>
+      <Footer />
     </>
   );
 }

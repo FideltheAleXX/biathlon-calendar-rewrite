@@ -1,16 +1,16 @@
 import styles from './StandingsMen.module.css';
 const StandingsMen = () => {
   const athletes = [
-    { id: 1, name: 'Eric Perrot', points: 834 },
+    { id: 1, name: 'Eric Perrot', points: 999 },
     { id: 2, name: 'Tommaso Giacomel', points: 797 },
-    { id: 3, name: 'Sebastian Samuelsson', points: 668 },
-    { id: 4, name: 'Johan-Olav Smoerdal Botn', points: 630 },
-    { id: 5, name: 'Quentin Fillon Maillet', points: 503 },
-    { id: 6, name: 'Johannes Dale-Skjevdal', points: 501 },
-    { id: 7, name: 'Martin Ponsiluoma', points: 500 },
-    { id: 8, name: 'Emilien Jacquelin', points: 474 },
-    { id: 9, name: 'Vetle Sjaastad Christiansen', points: 429 },
-    { id: 10, name: 'Campbell Wright', points: 414 },
+    { id: 3, name: 'Sebastian Samuelsson', points: 723 },
+    { id: 4, name: 'Johan-Olav Smoerdal Botn', points: 707 },
+    { id: 5, name: 'Sturla Holm Laegreid', points: 569 },
+    { id: 6, name: 'Johannes Dale-Skjevdal', points: 563 },
+    { id: 7, name: 'Vetle Sjaastad Vhristiansen', points: 559 },
+    { id: 8, name: 'Martin Ponsiluoma', points: 550 },
+    { id: 9, name: 'Quentin Fillon Maillet', points: 540 },
+    { id: 10, name: 'Emilien Jacquelin', points: 536 },
   ];
 
   const getPositionClass = (index) => {

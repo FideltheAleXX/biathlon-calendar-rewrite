@@ -1,0 +1,23 @@
+.footer {
+  margin: 8px;
+  padding: 16px;
+}
+
+.title {
+  font-size: 22px;
+  color: #73b5e5;
+  text-align: center;
+  margin: 12px;
+}
+
+.sponsors {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8px;
+  padding: 32px;
+}
+
+img {
+  width: 132px;
+}

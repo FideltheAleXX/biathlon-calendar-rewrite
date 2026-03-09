@@ -14,7 +14,7 @@
     1px 1px 0 #000;
   border: 1px solid #000;
   border-radius: 12px;
-  margin: 4px;
+  margin: 8px;
 }
 
 .list {
@@ -24,6 +24,17 @@
   margin: 8px;
   gap: 10px;
   text-align: center;
+}
+
+.list a svg {
+  transition:
+    transform 0.2s ease,
+    opacity 0.2s;
+}
+
+.list a:hover svg {
+  transform: scale(1.1);
+  opacity: 0.8;
 }
 
 .pollOption {
@@ -40,4 +51,20 @@
   height: 100%;
   background: #1e73be;
   transition: width 0.5s ease;
+}
+
+.btn {
+  padding: 8px;
+  margin: 8px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.question {
+  margin: 8px;
+}
+
+.profile {
+  margin: 4px;
+  text-decoration: none;
 }

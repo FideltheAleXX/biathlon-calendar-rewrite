@@ -2,16 +2,16 @@ import styles from './StandingsWomen.module.css';
 
 const StandingsWomen = () => {
   const athletes = [
-    { id: 1, name: 'Lou Jeanmonnot', points: 848 },
-    { id: 2, name: 'Suvi Minkkinen', points: 646 },
-    { id: 3, name: 'Anna Magnusson', points: 585 },
-    { id: 4, name: 'Maren Kirkeeide', points: 576 },
-    { id: 5, name: 'Hanna Oeberg', points: 560 },
-    { id: 6, name: 'Elvira Oeberg', points: 506 },
-    { id: 7, name: 'Lisa Vittozzi', points: 494 },
-    { id: 8, name: 'Camille Bened', points: 491 },
-    { id: 9, name: 'Justine Braisaz-Bouchet', points: 478 },
-    { id: 10, name: 'Dorothea Wierer', points: 456 },
+    { id: 1, name: 'Lou Jeanmonnot', points: 879 },
+    { id: 2, name: 'Suvi Minkkinen', points: 703 },
+    { id: 3, name: 'Anna Magnusson', points: 695 },
+    { id: 4, name: 'Elvira Oeberg', points: 671 },
+    { id: 5, name: 'Hanna Oeberg', points: 649 },
+    { id: 6, name: 'Maren Kirkeeide', points: 582 },
+    { id: 7, name: 'Lisa Vittozzi', points: 555 },
+    { id: 8, name: 'Camille Bened', points: 533 },
+    { id: 9, name: 'Julia Simon', points: 528 },
+    { id: 10, name: 'Justine Braisaz-Bouchet', points: 490 },
   ];
 
   const getPositionClass = (index) => {
