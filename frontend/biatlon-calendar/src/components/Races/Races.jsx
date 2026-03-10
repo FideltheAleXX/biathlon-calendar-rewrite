@@ -23,7 +23,7 @@ const Races = () => {
           </div>
 
           <p className={styles.startDate}>
-            {stage.startDate} - {stage.endDate}
+            {stage.startDate} — {stage.endDate}
           </p>
 
           {stage.competitions.map((race) => (

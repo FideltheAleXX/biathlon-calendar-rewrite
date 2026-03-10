@@ -20,6 +20,11 @@
   align-items: center;
 }
 
+.burger {
+  display: none;
+  cursor: pointer;
+}
+
 .list {
   list-style-type: none;
   display: flex;
@@ -41,4 +46,36 @@
 
 .navLink:hover {
   box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+  .listItem {
+    font-size: 18px;
+  }
+  .list {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 590px) {
+  .burger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .navigation {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    flex-direction: column;
+    background: #222;
+    width: 100%;
+    height: 100vh;
+    transition: transform 0.4s ease-in-out;
+    z-index: 999;
+  }
+
+  .navigation.open {
+    transform: translateX(100%);
+  }
 }

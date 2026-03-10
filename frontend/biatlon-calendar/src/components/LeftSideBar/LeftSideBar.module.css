@@ -1,9 +1,7 @@
 .section {
-  border: 1px solid #000;
-  width: 300px;
+  width: 22.5rem;
   margin: 8px;
   padding: 4px;
-  border-radius: 8px;
   text-align: center;
 }
 

@@ -1058,7 +1058,7 @@
         "discipline": "Individual",
         "gender": "Women",
         "distance": "15 km",
-        "status": "scheduled",
+        "status": "finished",
         "results": []
       },
       {
@@ -1067,7 +1067,7 @@
         "discipline": "Individual",
         "gender": "Men",
         "distance": "20 km",
-        "status": "scheduled",
+        "status": "finished",
         "results": []
       },
       {
@@ -1076,7 +1076,7 @@
         "discipline": "Mass-start",
         "gender": "Women",
         "distance": "12.5 km",
-        "status": "scheduled",
+        "status": "finished",
         "results": []
       },
       {
@@ -1085,7 +1085,7 @@
         "discipline": "Relay",
         "gender": "Men",
         "distance": "4x7.5 km",
-        "status": "scheduled",
+        "status": "finished",
         "results": []
       },
       {
@@ -1094,7 +1094,7 @@
         "discipline": "Relay",
         "gender": "Women",
         "distance": "4x6 km",
-        "status": "scheduled",
+        "status": "finished",
         "results": []
       },
       {
@@ -1103,7 +1103,7 @@
         "discipline": "Mass-start",
         "gender": "Men",
         "distance": "15 km",
-        "status": "scheduled",
+        "status": "finished",
         "results": []
       }
     ]

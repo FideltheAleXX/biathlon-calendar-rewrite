@@ -1,9 +1,7 @@
 .section {
-  border: 1px solid #000;
-  width: 300px;
+  width: 22.5rem;
   margin: 8px;
   padding: 4px;
-  border-radius: 8px;
   text-align: center;
 }
 
@@ -20,10 +18,9 @@
 .list {
   display: flex;
   list-style: none;
-  padding: 0 20px;
+  padding: 0 40px;
   margin: 8px;
-  gap: 10px;
-  text-align: center;
+  gap: 16px;
 }
 
 .list a svg {
@@ -67,4 +64,13 @@
 .profile {
   margin: 4px;
   text-decoration: none;
+}
+
+.profile:hover {
+  text-decoration: underline;
+}
+
+.interview {
+  font-size: 14px;
+  font-weight: 400;
 }

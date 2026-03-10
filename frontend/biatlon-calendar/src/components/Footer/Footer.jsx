@@ -34,11 +34,7 @@ const Footer = () => {
           <img src={logoShayan} alt="logo-shayan" />
         </a>
       </div>
-      <div>
-        <div>Logo</div>
-        <div>© 2006-2026</div>
-        <div>Text</div>
-      </div>
+      <div className={styles.info}>© 2006-2026</div>
     </footer>
   );
 };

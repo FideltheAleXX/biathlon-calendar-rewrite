@@ -21,3 +21,10 @@
 img {
   width: 132px;
 }
+
+.info {
+  padding: 24px;
+  margin: 16px;
+  display: flex;
+  justify-content: center;
+}
