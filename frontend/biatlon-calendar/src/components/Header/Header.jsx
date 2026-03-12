@@ -19,6 +19,7 @@ const Header = () => {
       document.body.style.overflow = 'auto';
     };
   }, [isOpen]);
+
   return (
     <header className={styles.header}>
       <div className={styles.imgContainer}>

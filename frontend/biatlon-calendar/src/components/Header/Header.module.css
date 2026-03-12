@@ -100,8 +100,8 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: rgba(0, 0, 0, 0.5); /* Полупрозрачный черный */
-    z-index: 997; /* Чуть меньше, чем у меню (там 999) */
-    backdrop-filter: blur(4px); /* Добавит красивое размытие фона */
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 997;
+    backdrop-filter: blur(4px);
   }
 }
