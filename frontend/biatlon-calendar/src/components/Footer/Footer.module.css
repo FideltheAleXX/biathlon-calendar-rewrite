@@ -19,7 +19,7 @@
 }
 
 img {
-  width: 132px;
+  width: clamp(6.25rem, calc(3.25rem + 6.25vw), 8.25rem);
 }
 
 .info {
@@ -27,4 +27,7 @@ img {
   margin: 16px;
   display: flex;
   justify-content: center;
+}
+
+@media (max-width: 480px) {
 }

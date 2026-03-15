@@ -33,7 +33,7 @@
 }
 
 .listItem {
-  font-size: 24px;
+  font-size: clamp(1.125rem, calc(0.563rem + 1.172vw), 1.5rem);
 }
 
 .navLink {
@@ -49,15 +49,6 @@
 }
 
 @media (max-width: 768px) {
-  .listItem {
-    font-size: 18px;
-  }
-  .list {
-    gap: 10px;
-  }
-}
-
-@media (max-width: 590px) {
   .burger {
     display: block;
     cursor: pointer;

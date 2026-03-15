@@ -112,31 +112,26 @@ const RightSideBar = () => {
       icon: faSquareFacebook,
       url: 'https://www.facebook.com/biathlon.com.ua/',
       color: 'rgb(177, 151, 252)',
-      fontSize: '2rem',
     },
     {
       icon: faInstagram,
       url: 'https://www.instagram.com/uabiathlon/',
       color: 'rgb(20, 19, 18)',
-      fontSize: '2rem',
     },
     {
       icon: faYoutube,
       url: 'https://www.youtube.com/channel/UC6FNT1jyB_QmmZktDWsN3Eg',
       color: 'rgb(235, 87, 11)',
-      fontSize: '2rem',
     },
     {
       icon: faTwitter,
       url: 'https://twitter.com/biathloncomua',
       color: 'rgb(116, 192, 252)',
-      fontSize: '2rem',
     },
     {
       icon: faTelegram,
       url: 'https://t.me/biathloncomua',
       color: 'rgb(116, 192, 252)',
-      fontSize: '2rem',
     },
   ];
 
@@ -172,6 +167,7 @@ const RightSideBar = () => {
       name: 'Христина Дмитренко: Намагалась свій програш компенсувати чистою стрільбою',
     },
   ];
+
   return (
     <section className={styles.section}>
       <ul className={styles.list}>
@@ -180,15 +176,17 @@ const RightSideBar = () => {
             <a href={social.url} target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon
                 icon={social.icon}
-                style={{ color: social.color, fontSize: social.fontSize }}
+                style={{ color: social.color }}
               />
             </a>
           </li>
         ))}
       </ul>
+
       <div className={styles.title}>ОЦІНКИ</div>
       <div>Оцінки в останній гонці</div>
       <button className={styles.btn}>Поставити / подивитись оцінки</button>
+
       <div className={styles.title}>ГОЛОСУВАННЯ</div>
       <div className={styles.question}>
         Які місця стануть найкращими для наших біатлоністів на ОІ?
@@ -212,6 +210,7 @@ const RightSideBar = () => {
         );
       })}
       <button className={styles.btn}>Проголосувати</button>
+
       <div className={styles.title}>ПРОФАЙЛИ</div>
       <ul>
         {athletes.map((athlete) => (
@@ -227,6 +226,7 @@ const RightSideBar = () => {
           </li>
         ))}
       </ul>
+
       <div className={styles.title}>ІНТЕРВЮ</div>
       <ul>
         {interviews.map((interview) => (

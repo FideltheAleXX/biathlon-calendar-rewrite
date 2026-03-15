@@ -3,15 +3,14 @@ import Table from '../Table/Table';
 import { RxCross1 } from 'react-icons/rx';
 import styles from './Standings.module.css';
 
-const StandingsMen = ({ title, athletes }) => {
-  const [isOpen, setIsOpen] = useState(false);
-
+const Standings = ({ title, athletes, isOpen, setIsOpen }) => {
   return (
     <>
       <section className={styles.section}>
         <button className={styles.mobileBtn} onClick={() => setIsOpen(true)}>
           {title}
         </button>
+
         <div className={styles.desktop}>
           <Table title={title} athletes={athletes} />
         </div>
@@ -31,4 +30,4 @@ const StandingsMen = ({ title, athletes }) => {
   );
 };
 
-export default StandingsMen;
+export default Standings;

@@ -23,12 +23,26 @@
   overflow: auto;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1135px) {
   .mobileBtn {
     display: block;
+    border: none;
+    font-size: 15px;
+    padding: 8px 12px;
+    margin: 4px auto;
+    background-color: #d4b4f1;
+    border-radius: 16px;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
   }
 
   .desktop {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .mobileBtn {
     display: none;
   }
 }

@@ -28,7 +28,7 @@ const LeftSideBar = () => {
   return (
     <section className={styles.section}>
       <div className={styles.title}>ФОТОГРАФІЇ</div>
-      <img src={foto} alt="biathlon-foto" />
+      <img className={styles.img} src={foto} alt="biathlon-foto" />
       <div>Головна</div>
       <div>Обговорення</div>
       <div className={styles.tournament}>Tournament</div>
@@ -37,7 +37,7 @@ const LeftSideBar = () => {
           <li key={info.id}>{info.name}</li>
         ))}
       </ul>
-      <div className={styles.name}>Кубок світу</div>
+      <p className={styles.name}>Кубок світу</p>
       <ul className={styles.list}>
         {worldCup.map((cup) => (
           <li key={cup.id}>{cup.name}</li>
