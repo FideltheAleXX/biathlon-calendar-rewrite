@@ -44,20 +44,27 @@
 }
 
 .position {
-  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #ddd;
 }
 
 .position1 {
-  color: gold;
+  background: gold;
   font-weight: 700;
 }
 
 .position2 {
-  color: silver;
+  background: silver;
 }
 
 .position3 {
-  color: #cd7f32; /* bronze */
+  background: #cd7f32; /* bronze */
 }
 
 .points {

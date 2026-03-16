@@ -15,11 +15,11 @@
   justify-content: space-between;
   align-items: center;
   margin: 8px;
-  padding: 32px;
+  padding: 16px;
 }
 
 img {
-  width: clamp(6.25rem, calc(3.25rem + 6.25vw), 8.25rem);
+  width: clamp(5rem, calc(3.917rem + 5.417vw), 8.25rem);
 }
 
 .info {
@@ -29,5 +29,11 @@ img {
   justify-content: center;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 320px) {
+  .sponsors {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+  }
 }
