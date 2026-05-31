@@ -1,32 +1,48 @@
-import { Controller, Get, Post, Param, Put, Delete } from '@nestjs/common';
+import {
+  Controller,
+  Get,
+  Post,
+  Param,
+  Put,
+  Delete,
+  Body,
+  HttpCode,
+  HttpStatus,
+} from '@nestjs/common';
 import { StagesService } from './stages.service';
+import { StageDto } from './dto/stage.dto';
+import { CreateStageDto } from './dto/create-stage.dto';
 
 @Controller('stages')
 export class StagesController {
   constructor(private readonly stagesService: StagesService) {}
 
   @Get()
-  getAllStages() {
+  async getAllStages(): Promise<StageDto[]> {
     return this.stagesService.getAll();
   }
 
   @Get(':id')
-  getOneStage(@Param('id') id: string) {
-    return this.stagesService.getOne(+id);
+  async getOneStage(@Param('id') id: string): Promise<StageDto[]> {
+    return this.stagesService.getOne(id);
   }
 
-  @Post(':id')
-  createStage() {
-    return this.stagesService.createStage();
+  @Post()
+  async createStage(@Body() data: CreateStageDto): Promise<StageDto> {
+    return this.stagesService.createStage(data);
   }
 
   @Put(':id')
-  updateStage() {
-    return this.stagesService.updateStage();
+  async updateStage(
+    @Param('id') id: string,
+    @Body() data: CreateStageDto,
+  ): Promise<StageDto> {
+    return this.stagesService.updateStage(id, data);
   }
 
   @Delete(':id')
-  deleteStage() {
-    return this.stagesService.deleteStage();
+  @HttpCode(HttpStatus.NO_CONTENT)
+  async deleteStage(@Param('id') id: string): Promise<void> {
+    await this.stagesService.deleteStage(id);
   }
 }
